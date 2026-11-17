@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#100d0d">
+<title>Srikanth &amp; Shreya | Wedding Invitation</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--gold:#d9b879;--cream:#f5ead6;--bg:#100d0d}*{box-sizing:border-box}html,body{margin:0;min-height:100%;background:var(--bg);color:var(--cream)}body{font-family:Montserrat,Arial,sans-serif}
+.hero{min-height:100svh;position:relative;display:grid;place-items:center;text-align:center;overflow:hidden;padding:28px 20px;background:linear-gradient(180deg,rgba(9,7,8,.42),rgba(9,7,8,.84)),url('https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1800&q=85') center/cover}
+.hero:before{content:"";position:absolute;inset:14px;border:1px solid rgba(217,184,121,.58);pointer-events:none}.hero:after{content:"";position:absolute;inset:0;background:radial-gradient(ellipse at center,transparent 15%,rgba(0,0,0,.4) 100%);pointer-events:none}
+.content{position:relative;z-index:1;max-width:680px;animation:rise 1.3s ease both}.eyebrow{letter-spacing:.34em;text-transform:uppercase;font-size:10px;color:var(--gold)}
+h1{font:500 clamp(48px,11vw,88px)/.95 "Cormorant Garamond",serif;margin:25px 0 14px}.amp{color:var(--gold);font-style:italic}.subtitle{font:italic 22px "Cormorant Garamond",serif;color:#f1dfc0;margin:0 0 34px}
+.rule{width:74px;height:1px;background:var(--gold);margin:25px auto}.date{font-size:11px;letter-spacing:.24em;text-transform:uppercase;color:#ead7b5;margin-bottom:35px}
+.open-btn{border:1px solid var(--gold);background:rgba(18,13,12,.5);color:var(--cream);padding:16px 30px;letter-spacing:.22em;text-transform:uppercase;font:500 10px Montserrat;cursor:pointer;transition:.3s}.open-btn:hover{background:var(--gold);color:#17100b;transform:translateY(-2px)}
+.hint{font-size:9px;letter-spacing:.16em;color:#d9c9ae;margin-top:18px;text-transform:uppercase}@keyframes rise{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:translateY(0)}}
+@media(max-width:480px){.hero:before{inset:10px}.subtitle{font-size:20px}.open-btn{padding:15px 22px}}
+</style></head>
+<body><main class="hero"><section class="content">
+<div class="eyebrow">A beautiful beginning</div>
+<h1>Srikanth<br><span class="amp">&amp;</span> Shreya</h1>
+<p class="subtitle">Together with their families</p><div class="rule"></div>
+<div class="date">22 November 2026 &nbsp; · &nbsp; 9:31 AM</div>
+<button class="open-btn" id="openInvite">Open invitation&nbsp; ↗</button>
+<div class="hint">Tap to reveal the celebration</div>
+</section></main>
+<script>document.getElementById('openInvite').addEventListener('click',()=>{window.location.href='invitation.html';});</script>
+</body></html>
