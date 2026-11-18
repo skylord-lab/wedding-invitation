@@ -1,29 +1,25 @@
 <!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#100d0d">
-<title>Srikanth &amp; Shreya | Wedding Invitation</title>
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#100b0b">
+<title>Srikanth & Shreya | Wedding Invitation</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
-:root{--gold:#d9b879;--cream:#f5ead6;--bg:#100d0d}*{box-sizing:border-box}html,body{margin:0;min-height:100%;background:var(--bg);color:var(--cream)}body{font-family:Montserrat,Arial,sans-serif}
-.hero{min-height:100svh;position:relative;display:grid;place-items:center;text-align:center;overflow:hidden;padding:28px 20px;background:linear-gradient(180deg,rgba(9,7,8,.42),rgba(9,7,8,.84)),url('https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1800&q=85') center/cover}
-.hero:before{content:"";position:absolute;inset:14px;border:1px solid rgba(217,184,121,.58);pointer-events:none}.hero:after{content:"";position:absolute;inset:0;background:radial-gradient(ellipse at center,transparent 15%,rgba(0,0,0,.4) 100%);pointer-events:none}
-.content{position:relative;z-index:1;max-width:680px;animation:rise 1.3s ease both}.eyebrow{letter-spacing:.34em;text-transform:uppercase;font-size:10px;color:var(--gold)}
-h1{font:500 clamp(48px,11vw,88px)/.95 "Cormorant Garamond",serif;margin:25px 0 14px}.amp{color:var(--gold);font-style:italic}.subtitle{font:italic 22px "Cormorant Garamond",serif;color:#f1dfc0;margin:0 0 34px}
-.rule{width:74px;height:1px;background:var(--gold);margin:25px auto}.date{font-size:11px;letter-spacing:.24em;text-transform:uppercase;color:#ead7b5;margin-bottom:35px}
-.open-btn{border:1px solid var(--gold);background:rgba(18,13,12,.5);color:var(--cream);padding:16px 30px;letter-spacing:.22em;text-transform:uppercase;font:500 10px Montserrat;cursor:pointer;transition:.3s}.open-btn:hover{background:var(--gold);color:#17100b;transform:translateY(-2px)}
-.hint{font-size:9px;letter-spacing:.16em;color:#d9c9ae;margin-top:18px;text-transform:uppercase}@keyframes rise{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:translateY(0)}}
-@media(max-width:480px){.hero:before{inset:10px}.subtitle{font-size:20px}.open-btn{padding:15px 22px}}
-</style></head>
-<body><main class="hero"><section class="content">
-<div class="eyebrow">A beautiful beginning</div>
+*{box-sizing:border-box}body{margin:0;background:#100b0b;color:#f5ead7;font-family:Montserrat,Arial,sans-serif}
+.hero{min-height:100svh;display:grid;place-items:center;text-align:center;padding:30px 22px;position:relative;background:linear-gradient(#08050566,#080505dc),url('https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1800&q=85') center/cover}
+.hero:before{content:"";position:absolute;inset:13px;border:1px solid #d9b87999}.inner{position:relative;max-width:700px;animation:rise 1.2s ease}
+.k{font-size:10px;letter-spacing:.32em;text-transform:uppercase;color:#d9b879}
+h1{font:500 clamp(58px,12vw,96px)/.9 'Cormorant Garamond',serif;margin:28px 0}.amp{color:#d9b879;font-style:italic}
+.sub{font:italic 23px 'Cormorant Garamond',serif}.line{height:1px;width:70px;background:#d9b879;margin:26px auto}
+.date{font-size:11px;letter-spacing:.2em;line-height:2}
+button{margin-top:30px;background:#100b0b88;border:1px solid #d9b879;color:#f5ead7;padding:16px 30px;font-size:10px;letter-spacing:.2em;text-transform:uppercase;cursor:pointer}
+button:hover{background:#d9b879;color:#160f0b}
+@keyframes rise{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:none}}
+</style></head><body>
+<main class="hero"><section class="inner">
+<div class="k">With the blessings of our families</div>
 <h1>Srikanth<br><span class="amp">&amp;</span> Shreya</h1>
-<p class="subtitle">Together with their families</p><div class="rule"></div>
-<div class="date">22 November 2026 &nbsp; · &nbsp; 9:31 AM</div>
-<button class="open-btn" id="openInvite">Open invitation&nbsp; ↗</button>
-<div class="hint">Tap to reveal the celebration</div>
-</section></main>
-<script>document.getElementById('openInvite').addEventListener('click',()=>{window.location.href='invitation.html';});</script>
-</body></html>
+<p class="sub">Two hearts. One beautiful beginning.</p><div class="line"></div>
+<div class="date">WEDDING · 22 NOVEMBER 2026<br>RECEPTION · 26 NOVEMBER 2026</div>
+<button onclick="location.href='invitation.html'">Open Invitation ↗</button>
+</section></main></body></html>
